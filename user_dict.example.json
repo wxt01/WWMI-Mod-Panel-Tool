@@ -1,0 +1,11 @@
+{
+  "_comment": "自定义词库模板。复制本文件为 user_dict.json 放在 exe 或 main.py 同目录即可生效。words=新增/覆盖翻译(优先于内置)；ignore=保持原样不翻译的后缀；case_sensitive=true 时自定义词区分大小写。_comment 字段程序会忽略，不影响运行。",
+  "words": {
+    "tunv": "臀部",
+    "example": "示例"
+  },
+  "ignore": [
+    "example_suffix"
+  ],
+  "case_sensitive": false
+}
